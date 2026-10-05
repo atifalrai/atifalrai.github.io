@@ -45,11 +45,10 @@ a{color:inherit}
 .section-label{color:var(--green)}
 
 /* INTRO */
-.intro{display:grid;grid-template-columns:1fr 2.2fr 1fr;gap:32px;padding-top:84px;padding-bottom:84px;border-bottom:1px solid var(--line)}
+.intro{display:grid;grid-template-columns:1fr 2.2fr;gap:32px;padding-top:84px;padding-bottom:84px;border-bottom:1px solid var(--line)}
 .intro .section-label{margin-top:11px}
 .intro h2,.section-heading h2,.ai-inner h2,.contact h2{margin:0;font-size:clamp(30px,3.6vw,44px);line-height:1.15;font-weight:800;letter-spacing:-.025em}
 .intro-copy{max-width:580px;margin:18px 0 0;color:var(--muted);font-size:15.5px}
-.intro-note{align-self:end;margin:0 0 3px;color:var(--green);font-weight:600;font-size:15px}
 
 /* EXPERIENCE */
 .experience{padding-top:80px;padding-bottom:84px}
@@ -65,8 +64,8 @@ a{color:inherit}
 
 /* PROJECTS */
 .projects{padding-top:80px;padding-bottom:90px;background:var(--soft)}
-.projects-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}
-.section-aside{max-width:240px;margin:0 0 5px;color:var(--muted);font-size:13px}
+.projects-heading{display:block;margin-bottom:22px}
+.section-aside{max-width:420px;margin:12px 0 0;color:var(--muted);font-size:13px}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
 .filter-button{min-height:36px;padding:0 16px;border:1px solid var(--line);border-radius:99px;background:#fff;color:#48564f;font:inherit;font-size:12.5px;font-weight:600;cursor:pointer;transition:all .18s}
 .filter-button span{margin-left:6px;color:var(--green)}
@@ -87,7 +86,6 @@ a{color:inherit}
 .project-card:hover .project-arrow{transform:translate(2px,-2px)}
 .project-context{display:block;margin:0 16px;padding-top:10px;border-top:1px solid var(--line);color:var(--muted);font-size:10.5px;line-height:1.45}
 .project-description{margin:8px 16px 16px;color:var(--muted);font-size:12px;line-height:1.55}
-.project-footnote{margin:18px 0 0;color:var(--muted);font-size:11.5px}
 
 /* AI */
 .ai-section{position:relative;overflow:hidden;background:var(--ink);color:#fff}
@@ -154,7 +152,6 @@ a{color:inherit}
 	.intro{grid-template-columns:1fr;gap:10px;padding-top:60px;padding-bottom:64px}
 	.intro .section-label{margin:0 0 13px}
 	.intro h2,.section-heading h2,.ai-inner h2,.contact h2{font-size:32px}
-	.intro-note{grid-column:1;margin-top:10px}
 	.experience{padding-top:60px;padding-bottom:64px}
 	.timeline-list li{grid-template-columns:104px 1fr 14px;gap:8px;min-height:60px}
 	.timeline-date{font-size:11px}
