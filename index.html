@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The quality engineering portfolio of Muhammad Atif Muneeb.">
 	<title>Muhammad Atif Muneeb | Quality Engineering</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,19 +21,22 @@
 			<a href="#projects">Projects</a>
 			<a href="#ai">AI QA</a>
 			<a href="#certs">Certifications</a>
+			<a class="nav-cta" href="#contact">Contact</a>
 		</nav>
 	</header>
 
 	<main id="home">
 		<section class="hero" aria-labelledby="hero-title">
-			<p class="eyebrow"><span class="status-dot"></span> Quality engineering, built for real-world products</p>
-			<h1 id="hero-title">Make every release<br><span>one you can trust.</span></h1>
-			<p class="hero-copy">Senior Quality Assurance &amp; Automation Engineer focused on resilient products, reliable releases, and thoughtful test automation.</p>
+			<p class="eyebrow"><span class="status-dot"></span> Available for new opportunities</p>
+			<h1 id="hero-title">Make every release <em>one you can trust.</em></h1>
+			<p class="hero-copy">Senior Quality Assurance &amp; Automation Engineer with 8+ years across FinTech, Healthcare, Enterprise, EdTech and SaaS — focused on resilient products, reliable releases, and thoughtful test automation.</p>
 			<div class="hero-tools" aria-label="Areas of expertise">
 				<span>Playwright</span><span>Selenium</span><span>API testing</span><span>Performance</span><span>AI-powered QA</span>
 			</div>
-			<a class="text-link" href="#projects">Explore selected work <span aria-hidden="true">↓</span></a>
-			<div class="hero-index" aria-hidden="true">01 <span>/</span> 05</div>
+			<div class="hero-actions">
+				<a class="btn btn-solid" href="#projects">View selected work</a>
+				<a class="btn btn-ghost" href="#contact">Get in touch</a>
+			</div>
 		</section>
 
 		<section class="intro section-wrap" id="about" aria-labelledby="about-title">
@@ -40,7 +45,7 @@
 				<h2 id="about-title">Quality is a product feature.</h2>
 				<p class="intro-copy">I bring 8+ years of quality engineering across FinTech, Healthcare, Enterprise, EdTech, and SaaS, helping teams ship with confidence through automation and pragmatic testing.</p>
 			</div>
-			<p class="intro-note">From first test to final release,<br>every detail earns its place.</p>
+			<p class="intro-note">From first test to final release, every detail earns its place.</p>
 		</section>
 
 		<section class="experience section-wrap" id="timeline" aria-labelledby="experience-title">
@@ -49,11 +54,11 @@
 				<h2 id="experience-title">Where I've worked</h2>
 			</div>
 			<ol class="timeline-list">
-				<li><span class="timeline-date">2021 — Present</span><span class="timeline-company">Cinnova Technologies</span><span class="timeline-mark" aria-hidden="true">+</span></li>
-				<li><span class="timeline-date">2020 — 2021</span><span class="timeline-company">Zoom Digital</span><span class="timeline-mark" aria-hidden="true">+</span></li>
-				<li><span class="timeline-date">2018 — 2020</span><span class="timeline-company">Codility Solutions</span><span class="timeline-mark" aria-hidden="true">+</span></li>
-				<li><span class="timeline-date">2017 — 2018</span><span class="timeline-company">Upgenics International</span><span class="timeline-mark" aria-hidden="true">+</span></li>
-				<li><span class="timeline-date">2016 — 2017</span><span class="timeline-company">SoftPyramid</span><span class="timeline-mark" aria-hidden="true">+</span></li>
+				<li><span class="timeline-date">2021 — Present</span><span class="timeline-company">Cinnova Technologies</span><span class="timeline-mark" aria-hidden="true">→</span></li>
+				<li><span class="timeline-date">2020 — 2021</span><span class="timeline-company">Zoom Digital</span><span class="timeline-mark" aria-hidden="true">→</span></li>
+				<li><span class="timeline-date">2018 — 2020</span><span class="timeline-company">Codility Solutions</span><span class="timeline-mark" aria-hidden="true">→</span></li>
+				<li><span class="timeline-date">2017 — 2018</span><span class="timeline-company">Upgenics International</span><span class="timeline-mark" aria-hidden="true">→</span></li>
+				<li><span class="timeline-date">2016 — 2017</span><span class="timeline-company">SoftPyramid</span><span class="timeline-mark" aria-hidden="true">→</span></li>
 			</ol>
 		</section>
 
@@ -63,72 +68,133 @@
 				<p class="section-aside">A selection across industries and product types.</p>
 			</div>
 			<div class="filters" role="group" aria-label="Filter projects">
-				<button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>11</span></button>
+				<button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>13</span></button>
 				<button class="filter-button" type="button" data-filter="fintech" aria-pressed="false">FinTech</button>
 				<button class="filter-button" type="button" data-filter="healthcare" aria-pressed="false">Healthcare</button>
 				<button class="filter-button" type="button" data-filter="edtech" aria-pressed="false">EdTech</button>
 				<button class="filter-button" type="button" data-filter="other" aria-pressed="false">Other</button>
 			</div>
 			<div class="project-grid">
-				<a class="project-card" data-category="fintech" href="https://www.yap.com/" target="_blank" rel="noopener noreferrer" aria-label="Open YAP UAE project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>YAP</span></span>
+				<a class="project-card" data-category="fintech" href="https://www.yap.com/" target="_blank" rel="noopener noreferrer" aria-label="Open YAP UAE website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/yap.jpg" alt="YAP UAE project screenshot" loading="lazy"></span>
 					<span class="project-meta"><span><span class="project-category">FinTech</span><span class="project-name">YAP UAE</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Cinnova Technologies L.L.C. · May 2021–Dec 2024</span>
+					<p class="project-description">Digital banking for account opening, payments, cards, and transfers. Owned test design and defect management for KYC, payments, and transaction security; covered 150+ APIs and 1,000+ concurrent users. Helped achieve 99.8% uptime.</p>
 				</a>
-				<a class="project-card" data-category="fintech" href="https://konnexme.com/applications/virtual-advisor" target="_blank" rel="noopener noreferrer" aria-label="Open KonnexMe project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>KM</span></span>
-					<span class="project-meta"><span><span class="project-category">FinTech</span><span class="project-name">KonnexMe</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="fintech" href="https://konnexme.com/applications/virtual-advisor" target="_blank" rel="noopener noreferrer" aria-label="Open KonnexMe website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/konnexme.jpg" alt="KonnexMe project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Financial Services</span><span class="project-name">KonnexMe</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Cinnova Technologies L.L.C. · Oct 2021–Present</span>
+					<p class="project-description">CRM for financial professionals to manage clients, appointments, communications, and reports. Ran end-to-end and integration testing, validating data integrity and workflows against third-party financial APIs.</p>
 				</a>
-				<a class="project-card" data-category="healthcare" href="https://www.neuronexus.com/" target="_blank" rel="noopener noreferrer" aria-label="Open NeuroNexus project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>NN</span></span>
-					<span class="project-meta"><span><span class="project-category">Healthcare</span><span class="project-name">NeuroNexus</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="healthcare" href="https://www.neuronexus.com/" target="_blank" rel="noopener noreferrer" aria-label="Open NeuroNexus website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/neuronexus.jpg" alt="NeuroNexus project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Healthcare Technology</span><span class="project-name">NeuroNexus</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Cinnova Technologies L.L.C. · Oct 2021–May 2022</span>
+					<p class="project-description">Neurotechnology platform for neuroscience research. Tested data collection systems, visualization tools, and API integrations, validating scientific data processing in a data-sensitive environment.</p>
 				</a>
-				<a class="project-card" data-category="healthcare" href="https://fullrein.com/" target="_blank" rel="noopener noreferrer" aria-label="Open FullRein project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>FR</span></span>
+				<a class="project-card" data-category="healthcare" href="https://fullrein.com/" target="_blank" rel="noopener noreferrer" aria-label="Open FullRein website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/fullrein.jpg" alt="FullRein project screenshot" loading="lazy"></span>
 					<span class="project-meta"><span><span class="project-category">Healthcare</span><span class="project-name">FullRein</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Cinnova Technologies L.L.C. · Jul 2021–Present</span>
+					<p class="project-description">Healthcare staffing platform connecting facilities with validated professionals. Tested onboarding, credential verification, compliance, facility matching, and shift scheduling with a focus on data accuracy and traceability.</p>
 				</a>
-				<a class="project-card" data-category="other" href="http://www.phonecheck.com/" target="_blank" rel="noopener noreferrer" aria-label="Open PhoneCheck project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>PC</span></span>
-					<span class="project-meta"><span><span class="project-category">Other</span><span class="project-name">PhoneCheck</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="other" href="http://www.phonecheck.com" target="_blank" rel="noopener noreferrer" aria-label="Open PhoneCheck website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/phonecheck.jpg" alt="PhoneCheck project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Mobile Diagnostics</span><span class="project-name">PhoneCheck</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Upgenics International · Oct 2017–Oct 2018</span>
+					<p class="project-description">Cross-platform mobile diagnostics for Android, iOS, Windows, Mac, and Linux. Tested IMEI verification, battery health, ESN validation, and automated certification and label printing.</p>
 				</a>
-				<a class="project-card" data-category="other" href="http://www.accounterp.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Accounts ERP project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>ERP</span></span>
-					<span class="project-meta"><span><span class="project-category">Other</span><span class="project-name">Accounts ERP</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="other" href="http://www.accounterp.com" target="_blank" rel="noopener noreferrer" aria-label="Open Accounts ERP website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/accountserp.jpg" alt="Accounts ERP project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Enterprise Software</span><span class="project-name">Accounts ERP</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Codility Solutions · Nov 2019–May 2020</span>
+					<p class="project-description">ERP covering HR, accounts, sales, purchasing, and vendor management. Performed end-to-end integration and performance testing across connected modules for 500+ concurrent users.</p>
 				</a>
-				<a class="project-card" data-category="other" href="https://fileboard.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Fileboard project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>FB</span></span>
-					<span class="project-meta"><span><span class="project-category">Other</span><span class="project-name">Fileboard</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="other" href="https://fileboard.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Fileboard website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/fileboard.jpg" alt="Fileboard project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Sales &amp; Marketing</span><span class="project-name">Fileboard</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Dec 2018–Apr 2019</span>
+					<p class="project-description">Sales engagement platform for meeting conversions and lead generation. Tested automated workflows and analytics functionality.</p>
 				</a>
-				<a class="project-card" data-category="edtech" href="https://mybrainware.com/brainware-safari/" target="_blank" rel="noopener noreferrer" aria-label="Open Brainware Safari project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>BS</span></span>
-					<span class="project-meta"><span><span class="project-category">EdTech</span><span class="project-name">Brainware Safari</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="other" href="assets/screenshots/opermax.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Opermax project preview">
+					<span class="project-image"><img src="assets/screenshots/opermax.jpg" alt="Opermax project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Other</span><span class="project-name">Opermax</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
 				</a>
-				<a class="project-card" data-category="other" href="https://www.piramalrealty.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Piramal Realty project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>PR</span></span>
-					<span class="project-meta"><span><span class="project-category">Other</span><span class="project-name">Piramal Realty</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="edtech" href="https://mybrainware.com/brainware-safari/" target="_blank" rel="noopener noreferrer" aria-label="Open Brainware Safari website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/brainware.jpg" alt="Brainware Safari project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">EdTech</span><span class="project-name">BrainWare Safari</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Cinnova Technologies L.L.C. · Jun 2021–Feb 2022</span>
+					<p class="project-description">Educational software with 20 exercises across 168 levels and 43 cognitive skills. Tested gamification, progress tracking, adaptive difficulty, and content delivery.</p>
 				</a>
-				<a class="project-card" data-category="other" href="https://www.zoomproperty.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Zoom Property project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>ZP</span></span>
-					<span class="project-meta"><span><span class="project-category">Other</span><span class="project-name">Zoom Property</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+				<a class="project-card" data-category="other" href="https://www.piramalrealty.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Piramal Realty website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/piramal.jpg" alt="Piramal Realty project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Real Estate</span><span class="project-name">Piramal Realty</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Zoom Digitals · Jun 2020–Present</span>
+					<p class="project-description">Real-estate platform for online booking, virtual site visits, and EMI calculations serving 10,000+ daily users. Designed functional, regression, and UAT coverage for booking and calculation workflows.</p>
 				</a>
-				<a class="project-card" data-category="edtech" href="https://brownsenglish.edu.au/mybrowns/" target="_blank" rel="noopener noreferrer" aria-label="Open MyBrowns project website in a new tab">
-					<span class="project-art" aria-hidden="true"><span>MB</span></span>
+				<a class="project-card" data-category="other" href="https://www.zoomproperty.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Zoom Property website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/zoomproperty.jpg" alt="Zoom Property project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Real Estate</span><span class="project-name">Zoom Property</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Zoom Digitals · Jun 2020–Present</span>
+					<p class="project-description">Dubai property marketplace with agent and document management. Tested integrated listing, property comparison, and document-handling workflows.</p>
+				</a>
+				<a class="project-card" data-category="other" href="assets/screenshots/propertyobsession.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open Property Obsession project screenshot">
+					<span class="project-image"><img src="assets/screenshots/propertyobsession.jpg" alt="Property Obsession project screenshot" loading="lazy"></span>
+					<span class="project-meta"><span><span class="project-category">Real Estate</span><span class="project-name">Property Obsession</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">Cinnova Technologies L.L.C. · Jun 2021–Apr 2022</span>
+					<p class="project-description">Real-estate marketplace with listings, virtual tours, mortgage calculators, and agent management. Tested online booking and property search workflows.</p>
+				</a>
+				<a class="project-card" data-category="edtech" href="https://brownsenglish.edu.au/mybrowns/" target="_blank" rel="noopener noreferrer" aria-label="Open MyBrowns website in a new tab">
+					<span class="project-image"><img src="assets/screenshots/mybrowns.jpg" alt="MyBrowns project screenshot" loading="lazy"></span>
 					<span class="project-meta"><span><span class="project-category">EdTech</span><span class="project-name">MyBrowns</span></span><span class="project-arrow" aria-hidden="true">↗</span></span>
+					<span class="project-context">SoftPyramid</span>
+					<p class="project-description">Australian English-learning platform with course selection, quote generation, online assessments, fee calculation, and admissions workflows.</p>
 				</a>
 			</div>
-			<p class="project-footnote">Select a project to open its website.</p>
+			<p class="project-footnote">Project cards summarize your QA contribution. Website links open in a new tab; the remaining project cards open local previews.</p>
 		</section>
 
 		<section class="ai-section" id="ai" aria-labelledby="ai-title">
 			<div class="section-wrap ai-inner">
-				<p class="section-label">04 / Emerging practice</p>
-				<div><h2 id="ai-title">AI, with quality in mind.</h2><p>Copilot, AI test design, prompt engineering, and AI-assisted workflows, applied with the same rigor as every other tool in the stack.</p></div>
-				<span class="ai-mark" aria-hidden="true">AI<br>QA</span>
+				<div class="ai-heading">
+					<p class="section-label">04 / Emerging practice</p>
+					<h2 id="ai-title">Put AI to work.<br><span>Keep quality in focus.</span></h2>
+				</div>
+				<div class="ai-content">
+					<p class="ai-copy">I apply AI to quality engineering through Claude Code, the Claude API, and the Model Context Protocol, pairing these tools with thoughtful test design and prompt engineering.</p>
+					<ol class="ai-practices">
+						<li><span>01</span> AI-assisted test design</li>
+						<li><span>02</span> Claude Code and the Claude API</li>
+						<li><span>03</span> Model Context Protocol</li>
+						<li><span>04</span> Prompt engineering and agent skills</li>
+					</ol>
+				</div>
 			</div>
 		</section>
 
 		<section class="certifications section-wrap" id="certs" aria-labelledby="certs-title">
 			<div class="section-heading"><p class="section-label">05 / Certifications</p><h2 id="certs-title">Learning, put to work.</h2></div>
-			<ul class="cert-list"><li>Cucumber with Java <span aria-hidden="true">↗</span></li><li>API Testing Foundations <span aria-hidden="true">↗</span></li></ul>
+			<ul class="cert-list">
+				<li><a class="cert-link" href="https://verify.skilljar.com/c/tt9rm45gtqwq" target="_blank" rel="noopener noreferrer" aria-label="View Introduction to Model Context Protocol certificate"><span class="cert-title">Introduction to Model Context Protocol</span><span class="cert-issuer">Anthropic · Jul 2026</span><span class="cert-mark" aria-hidden="true">↗</span></a></li>
+				<li><a class="cert-link" href="https://verify.skilljar.com/c/74cjinbtxu2b" target="_blank" rel="noopener noreferrer" aria-label="View Building with the Claude API certificate"><span class="cert-title">Building with the Claude API</span><span class="cert-issuer">Anthropic · Jul 2026</span><span class="cert-mark" aria-hidden="true">↗</span></a></li>
+				<li><a class="cert-link" href="https://verify.skilljar.com/c/72k2nz27my68" target="_blank" rel="noopener noreferrer" aria-label="View Claude Code in Action certificate"><span class="cert-title">Claude Code in Action</span><span class="cert-issuer">Anthropic · Jul 2026</span><span class="cert-mark" aria-hidden="true">↗</span></a></li>
+				<li><a class="cert-link" href="https://verify.skilljar.com/c/ouq5vgohyud2" target="_blank" rel="noopener noreferrer" aria-label="View Introduction to agent skills certificate"><span class="cert-title">Certificate of completion: Introduction to agent skills</span><span class="cert-issuer">Anthropic · Jul 2026</span><span class="cert-mark" aria-hidden="true">↗</span></a></li>
+				<li><a class="cert-link" href="https://testautomationu.applitools.com/certificate/?id=a7ce06dc" target="_blank" rel="noopener noreferrer" aria-label="View Cucumber with Java certificate"><span class="cert-title">Cucumber with Java</span><span class="cert-issuer">Test Automation University · Jun 2022</span><span class="cert-mark" aria-hidden="true">↗</span></a></li>
+				<li><a class="cert-link" href="https://www.linkedin.com/learning/certificates/c8431e112a906ad98dd6754be1063cdacc5412640da6bc628eec716279ff2abc/?trk=backfilled_certificate" target="_blank" rel="noopener noreferrer" aria-label="View API Testing Foundations certificate"><span class="cert-title">API Testing Foundations</span><span class="cert-issuer">LinkedIn · May 2020</span><span class="cert-mark" aria-hidden="true">↗</span></a></li>
+			</ul>
+		</section>
+
+		<section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+			<p class="section-label">06 / Contact</p>
+			<h2 id="contact-title">Let's build something reliable.</h2>
+			<p class="contact-copy">Open to senior QA, automation, and test engineering roles — remote or on-site.</p>
+			<div class="contact-actions">
+				<a class="btn btn-solid" href="mailto:atif52ok@gmail.com">Email me</a>
+				<a class="btn btn-outline" href="tel:+923057350797">+92 305 7350797</a>
+				<a class="btn btn-outline" href="https://www.linkedin.com/in/muhammad-atif-muneeb-67bb64133" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+			</div>
+			<p class="contact-details"><a href="mailto:atif52ok@gmail.com">atif52ok@gmail.com</a> · <a href="tel:+923057350797">+92 305 7350797</a></p>
 		</section>
 	</main>
 
